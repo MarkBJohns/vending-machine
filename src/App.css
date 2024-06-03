@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.VendingMachine {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 100vh;
+}
+
+.VendingMachine-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.VendingMachine-image {
+  max-width: 70%;
+  height: auto;
+}
+
+.VendingMachine-selection {
+  margin-left: 20px;
+  text-align: left;
+}
+
+
+
+.Snack > img {
+  max-width: 200px;
+}
